@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 18px;
@@ -26,6 +25,7 @@
   block-size: 100dvb;
   inline-size: 100%;
   min-block-size: 668px;
+  margin-block-end: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
 }
 
 @media (min-width: 768px) {
@@ -183,6 +183,7 @@
   flex-direction: column;
   gap: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem);
   padding-inline: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  margin-block-end: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
 }
 
 .main__section {
